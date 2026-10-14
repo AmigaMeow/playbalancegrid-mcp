@@ -1,18 +1,19 @@
 {
-"name": "playbalancegrid-mcp-server",
-"version": "1.0.0",
-"description": "PlayBalanceGrid Takuzu puzzle MCP server - generate puzzles, validate solutions",
-"type": "module",
-"main": "src/index.js",
-"scripts": {
-"start": "node src/index.js"
-},
-"dependencies": {
-"@modelcontextprotocol/sdk": "^1.0.0"
-},
-"repository": {
-"type": "git",
-"url": "https://github.com/AmigaMeow/playbalancegrid-mcp.git"
-},
-"license": "MIT"
+  "name": "playbalancegrid-mcp-server",
+  "version": "1.0.1",
+  "description": "PlayBalanceGrid Takuzu puzzle MCP server - generate puzzles, validate solutions",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmigaMeow/playbalancegrid-mcp.git"
+  },
+  "license": "MIT",
+  "mcpName": "com.playbalancegrid/puzzle-tools"
 }
