@@ -1,0 +1,22 @@
+{
+"$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+"name": "com.playbalancegrid/puzzle-tools",
+"title": "PlayBalanceGrid Puzzle Tools",
+"description": "Takuzu/Binairo puzzle generator and solver. Generate puzzles, validate solutions.",
+"version": "1.0.0",
+"websiteUrl": "https://playbalancegrid.com",
+"repository": {
+"url": "https://github.com/AmigaMeow/playbalancegrid-mcp",
+"source": "github"
+},
+"packages": [
+{
+"registryType": "npm",
+"identifier": "playbalancegrid-mcp-server",
+"version": "1.0.0",
+"transport": {
+"type": "stdio"
+}
+}
+]
+}
